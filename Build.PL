@@ -12,7 +12,7 @@ my $build = Module::Build->new(
         'MooseX::StrictConstructor' => 0,
         'Regexp::Common'            => 0,
         'Scalar::Util'              => 0,
-        'ATry::Tiny'                => 0,
+        'Try::Tiny'                => 0,
     },
 );
 $build->create_build_script;
