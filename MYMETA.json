@@ -1,10 +1,8 @@
 {
    "abstract" : "Allow two daemons to maintain a master/slave relationship",
-   "author" : [
-      "unknown"
-   ],
+   "author" : [],
    "dynamic_config" : 0,
-   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.132830",
+   "generated_by" : "Module::Build version 0.4205",
    "license" : [
       "perl_5"
    ],
@@ -21,6 +19,7 @@
             "AnyEvent::Socket" : "0",
             "Modern::Perl" : "0",
             "Moose" : "0",
+            "MooseX::LogDispatch" : "0",
             "MooseX::StrictConstructor" : "0",
             "Regexp::Common" : "0",
             "Scalar::Util" : "0",

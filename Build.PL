@@ -1,5 +1,15 @@
 use Module::Build;
 my $build = Module::Build->new(
+    build_requires  => {
+        'Module::Build'     => 0,
+    },
+    configure_requires  => {
+        'Module::Build'     => 0,
+    },
+    dist_abstract           => 'AnyEvent based module to provide master/slave failover',
+    dist_author             => 'Sean Maguire <maguiresf@gmail.com>',
+    dist_name               => 'Net-FailOver',
+    dist_version            => '0.1',
     module_name => 'Net::FailOver',
     license  => 'perl',
     requires => {
@@ -14,6 +24,9 @@ my $build = Module::Build->new(
         'Scalar::Util'              => 0,
         'Try::Tiny'                 => 0,
         'MooseX::LogDispatch'       => 0,
+    },
+    test_requires           => {
+        "Test::More"    => 0,
     },
 );
 $build->create_build_script;
