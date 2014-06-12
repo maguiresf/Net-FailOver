@@ -1,6 +1,6 @@
 package Net::FailOver;
 # ABSTRACT: AnyEvent based module to provide master/slave failover
-use Modern::Perl '2014';
+use Modern::Perl '2012';
 use Moose;
 use Moose::Util::TypeConstraints;
 use MooseX::StrictConstructor;
