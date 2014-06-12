@@ -15,6 +15,7 @@
 /PM_to_blib
 /META.yml
 /MYMETA.yml
+/MYMETA.json
 /*.tar.gz
 /Module-Build-*
 /LICENSE
