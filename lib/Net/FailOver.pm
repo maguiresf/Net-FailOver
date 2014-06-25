@@ -214,7 +214,7 @@ sub _listen
     my ($self) = @_;
 
     $self->logger->debug("Attempting to open port");
-    warn "Need to check what error and eof mean, should I throw?";
+    #warn "Need to check what error and eof mean, should I throw?";
 
     tcp_server $self->my_address, $self->my_port => sub {
         my ($fh, $host, $port) = @_;
